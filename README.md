@@ -1,7 +1,7 @@
-# C2 Protocol Simulation & Binary Framing Laboratory
+﻿# Secure Binary Protocol & Authenticated Telemetry Framing Framework
 
 > Reference implementation and defensive research laboratory for binary authenticated packet framing, session state machines, and anti-replay verification across network channels.
-> Author: Nguyen Huynh Dang Nhut (@nhutnhd)
+> Author: Nguyen Huynh Dang Nhut (@nhdnhut)
 > Project Status: Archived Academic Reference Implementation (Read-Only)
 
 [![Python](https://img.shields.io/badge/Language-Python_3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -103,5 +103,6 @@ pytest tests/ -v
 ## 6. License & Archival Notice
 
 This software is released under the MIT License with an Educational & Research Use Rider.  
-Copyright (c) 2026 Nguyen Huynh Dang Nhut (@nhutnhd).  
+Copyright (c) 2026 Nguyen Huynh Dang Nhut (@nhdnhut).  
 This repository is archived and maintained for educational reference only.
+
