@@ -1,4 +1,4 @@
-﻿# Secure Binary Protocol & Authenticated Telemetry Framing Framework
+# Secure Binary Protocol & Authenticated Telemetry Framing Framework
 
 > Reference implementation and defensive research laboratory for binary authenticated packet framing, session state machines, and anti-replay verification across network channels.
 > Author: Nguyen Huynh Dang Nhut (@nhdnhut)
