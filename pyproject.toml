@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secure-binary-protocol-framework"
+version = "1.0.0"
+description = "Authenticated binary packet framing protocol and telemetry state machine (AES-256-GCM, anti-replay guard)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Nguyen Huynh Dang Nhut", email = "dangnhutnguyen.work@gmail.com" }
+]
+keywords = [
+    "binary-protocol",
+    "packet-framing",
+    "aes-256-gcm",
+    "anti-replay",
+    "telemetry",
+    "systems-security",
+]
+dependencies = [
+    "cryptography>=41.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+]
